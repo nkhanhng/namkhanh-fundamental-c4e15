@@ -1,0 +1,31 @@
+1) In interactive mode
+>>>type("Hello, Wolrd")
+<class 'str'>
+#String type
+
+>>>type("12.3")
+<class 'str'>
+
+>>> type(10)
+<class 'int'>
+#Interger Type
+
+>>>type(3.2)
+<class 'float'>
+#Float type
+
+2) In 3 cases:
+-Variable does not begin with a letter
++Example:
+>>>123abc = "Hello World"
+SyntaxError: invalid syntax
+
+-Variable contains an illegal character
++Example:
+>>>abc% = 123
+SyntaxError: invalid syntax
+
+-Variable contains Python keywords
++Example:
+>>>class = "C4E15"
+SyntaxError: invalid syntax
