@@ -1,0 +1,21 @@
+1) Boolean value is either true or false
+3 expressions:
+>>>5 == (3 + 2)
+True
+
+>>>6 < 5
+False
+
+>>> j = "hel"
+>>> j + "lo" == "hello"
+True
+
+
+2) A flowchart is a formalized graphic representation of a logic sequence,
+   work or manufacturing process, organization chart, or similar formalized structure.
+
+
+3) Nested Conditional means that you can use one if or else if statement
+   inside another if or else if statement(s).
+
+Example: nested_ex.py
