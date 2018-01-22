@@ -12,6 +12,7 @@ while count < 3:
     if n == user:
         if m == pas:
             print("Welcome")
+            break
         else:
             print("Wrong Password")
     else:
