@@ -6,7 +6,7 @@ def out():
 
 
 while True:
-    ans = input("Welcome to our shop, what do you want(C,R,U,D) ").upper()
+    ans = input("Welcome to our shop, what do you want(C,R,U,D)(E to exit) ").upper()
 
     #Read
     if ans == "R":
@@ -36,3 +36,6 @@ while True:
         else:
             items.pop(rm - 1)
             out()
+
+    elif ans == "E":
+        break
