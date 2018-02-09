@@ -1,0 +1,17 @@
+1) A function is repeatable code, we dont have to rewrite code everytime we want to use it
+2)def NAME( PARAMETERS ):
+      STATEMENTS
+
+3) Call function:
+NAME(PARAMETERS)
+
+4). The return statement causes your function to exit and hand back a value to its caller.
+The point of functions in general is to take in inputs and return something.
+The return statement is used when a function is ready to return a value to its caller.
+
+5)We should use return in every function
+
+6)A parameter is the variable which is part of the function’s signature (function declaration).
+An argument is an expression used when calling the function.
+
+7)To fix bugs and manage the code easier 
